@@ -59,7 +59,7 @@
      "
       />
       <g>
-        <circle @mouseover="hoverTooltip($event)" cx="00" cy="80" r="3" />
+        <circle @mouseover="hoverTooltip($event)" cx="04" cy="80" r="3" />
         <circle @mouseover="hoverTooltip($event)" cx="20" cy="80" r="3" />
         <circle @mouseover="hoverTooltip($event)" cx="40" cy="80" r="3" />
         <circle @mouseover="hoverTooltip($event)" cx="60" cy="80" r="3" />
