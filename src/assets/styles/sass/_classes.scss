@@ -26,10 +26,11 @@
 .chart-tooltip {
   position: absolute;
   transform: translateX(-50%);
-  top: 50%;
+  top: -10%;
   visibility: hidden;
   background-color: $dark-one;
   border-radius: 6px;
   padding: 20px;
   color: $white;
+  transition: left 0.1s linear;
 }
