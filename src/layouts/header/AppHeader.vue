@@ -20,7 +20,7 @@ export default {
   padding: 30px 0;
   justify-content: space-between;
   &__logo {
-    width: 50px;
+    width: 45px;
   }
   &__buttons {
     a {

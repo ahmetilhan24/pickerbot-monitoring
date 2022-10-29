@@ -1,11 +1,13 @@
 <template>
   <div class="monitoring-view">
-    <h1>asd</h1>
+    <result-container />
   </div>
 </template>
 
 <script>
+import ResultContainer from "@/components/results/ResultContainer.vue";
 export default {
   name: "MonitoringView",
+  components: { ResultContainer },
 };
 </script>
