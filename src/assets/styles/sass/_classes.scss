@@ -15,3 +15,21 @@
     background-color: $gray-three;
   }
 }
+
+.section-title {
+  padding: 20px 0;
+  font-size: 24px;
+  color: $dark-one;
+  font-weight: 500;
+}
+
+.chart-tooltip {
+  position: absolute;
+  transform: translateX(-50%);
+  top: 50%;
+  visibility: hidden;
+  background-color: $dark-one;
+  border-radius: 6px;
+  padding: 20px;
+  color: $white;
+}
