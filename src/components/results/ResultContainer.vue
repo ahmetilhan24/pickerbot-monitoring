@@ -24,7 +24,7 @@ export default {
   }
   :deep() {
     svg {
-      width: 100px;
+      width: 80px;
     }
     h2 {
       font-size: 32px;

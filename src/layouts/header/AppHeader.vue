@@ -1,6 +1,8 @@
 <template>
   <header class="header flex--row row--middle--center">
-    <img class="header__logo" src="@/assets/img/logo.svg" alt="" />
+    <router-link to="/"
+      ><img class="header__logo" src="@/assets/img/logo.svg" alt=""
+    /></router-link>
     <div class="header__buttons flex--row row--middle--center">
       <a class="btn-border" href="https://github.com/ahmetilhan24">
         <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
