@@ -1,5 +1,5 @@
 <template>
-  <div class="column-chart">
+  <div class="column-chart bordered">
     <svg id="svg_elem" v-if="chartIsReady">
       <g
         @mouseover="hoverTooltip($event)"
@@ -26,8 +26,8 @@ export default {
     return {
       per: 80,
       svg: {
-        rectWidth: NaN,
-        rectX: NaN,
+        rectWidth: 0,
+        rectX: 0,
       },
       chartIsReady: true, //bind to res
     };
@@ -54,7 +54,7 @@ export default {
   position: relative;
   svg {
     width: 100%;
-    overflow-x: auto;
+    height: 100px;
     .column {
       &:hover {
         rect {

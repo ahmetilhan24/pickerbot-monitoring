@@ -1,5 +1,5 @@
 <template>
-  <div class="line-chart">
+  <div class="line-chart bordered">
     <svg>
       <polyline
         fill="none"

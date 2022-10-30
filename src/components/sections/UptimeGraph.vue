@@ -1,5 +1,7 @@
 <template>
-  <section class="response-time-graph flex--column column--middle--left">
+  <section
+    class="response-time-graph section flex--column column--middle--left"
+  >
     <h3 class="section-title">Uptime</h3>
     <line-chart />
   </section>
