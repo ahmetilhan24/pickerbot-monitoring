@@ -26,8 +26,10 @@
 .chart-tooltip {
   position: absolute;
   transform: translateX(-50%);
-  top: -10%;
+  top: 200%;
+  left: 200%;
   visibility: hidden;
+  display: none;
   background-color: $dark-one;
   border-radius: 6px;
   padding: 20px;
