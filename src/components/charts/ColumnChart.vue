@@ -12,7 +12,11 @@
     </svg>
     <div
       class="chart-tooltip flex--row row--middle--center"
-      :style="{ left: tooltip.position.left }"
+      :style="{
+        left: tooltip.position.left,
+        top: tooltip.position.top,
+        display: tooltip.display,
+      }"
     >
       Tooltip
     </div>
