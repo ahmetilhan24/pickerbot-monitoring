@@ -6,7 +6,7 @@
         stroke="#00DF4D"
         stroke-width="2"
         points="
-       00,80
+       00,150
        20,80
        40,80
        60,80
@@ -59,7 +59,6 @@
      "
       />
       <g>
-        <circle @mouseover="hoverTooltip($event)" cx="04" cy="80" r="3" />
         <circle @mouseover="hoverTooltip($event)" cx="20" cy="80" r="3" />
         <circle @mouseover="hoverTooltip($event)" cx="40" cy="80" r="3" />
         <circle @mouseover="hoverTooltip($event)" cx="60" cy="80" r="3" />
@@ -74,7 +73,11 @@
     </svg>
     <div
       class="chart-tooltip flex--row row--middle--center"
-      :style="{ left: tooltip.position.left }"
+      :style="{
+        left: tooltip.position.left,
+        top: tooltip.position.top,
+        display: tooltip.position.display,
+      }"
     >
       Tooltip
     </div>
@@ -94,14 +97,11 @@ export default {
   position: relative;
   svg {
     width: 100%;
-    polyline {
-      fill: $primary-color-light;
-    }
     g {
       circle {
         stroke: $dark-two;
         stroke-width: 2px;
-        fill: $dark-one;
+        fill: $gray-one;
         transition: all 0.1s linear;
         &:hover {
           stroke-width: 6px;
