@@ -76,7 +76,7 @@
       :style="{
         left: tooltip.position.left,
         top: tooltip.position.top,
-        display: tooltip.position.display,
+        display: tooltip.display,
       }"
     >
       Tooltip
